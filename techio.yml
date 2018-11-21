@@ -2,19 +2,22 @@ title : Hibernate Native SQL
 
 # Table of content
 plan:
+- title: My first chapter title
+  description: This is a quick description of my first chapter.
+  plan:
   - title: Creating Native queries with createNativeQuery
-    statement: markdowns/welcome.md # Set the file path to the page content
+	statement: markdowns/welcome.md # Set the file path to the page content
   - title: Use parameter binding in native SQL queries
-    statement: markdowns/welcome.md
+	statement: markdowns/welcome.md
   - title: Adding scalars 
-    statement: markdowns/welcome.md
+	statement: markdowns/welcome.md
   - title: Joins 
-    statement: markdowns/welcome.md
-    plan:
-    - title: Native Joins 
-      statement: markdowns/welcome.md
-    - title: Adding joins with entity mapping 
-      statement: markdowns/welcome.md
+	statement: markdowns/welcome.md
+	plan:
+	- title: Native Joins 
+	  statement: markdowns/welcome.md
+	- title: Adding joins with entity mapping 
+	  statement: markdowns/welcome.md
 
 # Settings for your programming projects and the associated Docker images
 projects:
