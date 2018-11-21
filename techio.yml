@@ -1,11 +1,33 @@
-title : Java Maven Project
+title : Hibernate Native SQL
 
 # Table of content
 plan:
-  - title: Welcome # Set the page title (only displayed if your contribution has several pages)
+  - title: Creating Native queries with createNativeQuery
     statement: markdowns/welcome.md # Set the file path to the page content
-#  - title: Another Page
-#    statement: markdowns/another-page.md
+  - title: Use parameter binding in native SQL queries
+    statement: markdowns/another-page.md
+  - title: Adding scalars 
+    statement: markdowns/another-page.md
+  - title: Joins 
+    statement: markdowns/another-page.md
+    plan:
+    - title: Native Joins 
+      statement: markdowns/another-page.md
+    - title: Adding joins with entity mapping 
+      statement: markdowns/another-page.md
+  - title: Iterating through the result set and constructing the Beans
+    statement: markdowns/another-page.md
+    plan:
+    - title: Querying with Entity mapping
+    statement: markdowns/another-page.md
+    - title: Basic Result set mapping using @SqlResultSetMapping
+    statement: markdowns/another-page.md
+    - title: Mapping Non-managed entities via result transformer
+    statement: markdowns/another-page.md
+  - title: Using @NamedNativeQuery
+    statement: markdowns/another-page.md
+
+
 
 
 # Settings for your programming projects and the associated Docker images
