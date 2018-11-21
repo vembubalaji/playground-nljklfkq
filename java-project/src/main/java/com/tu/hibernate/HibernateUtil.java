@@ -34,7 +34,7 @@ public class HibernateUtil {
 				settings.put(Environment.HBM2DDL_AUTO, "none");
 				settings.put(Environment.SHOW_SQL, true);
 				settings.put(Environment.DIALECT, "org.hibernate.dialect.HSQLDialect");
-				settings.put(Environment.HBM2DDL_IMPORT_FILES, "com/tu/hibernate/schema.sql");
+				settings.put(Environment.HBM2DDL_IMPORT_FILES, "schema.sql");
 				settings.put(Environment.HBM2DDL_AUTO, "create");
 
 				registryBuilder.applySettings(settings);
