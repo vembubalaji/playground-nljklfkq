@@ -1,3 +1,4 @@
+// { autofold
 package com.tu.nativesqlsample;
 
 import java.util.List;
@@ -36,6 +37,7 @@ public class NativeQueryNativeJoinWithEntity {
 	@SuppressWarnings("unchecked")
 	public static void nativeJoinWithEntity(Session session) {
 		logger.info(dash);
+	  // }
 		List<Object[]> usersJoin = session
 				.createNativeQuery(
 						"select u.*, t.* from user u left outer join team t on u.team_id=t.team_id  where u.user_id=?")
@@ -48,7 +50,7 @@ public class NativeQueryNativeJoinWithEntity {
 			logger.info("User - " + userJoin.getName());
 			logger.info("User Domain - " + userJoin.getDomain().getDomainName());
 			Team teamJoin = (Team) object[1];
-			logger.info("User Team Name " + teamJoin.getTeamName());
+			logger.info("Info: User Team Name " + teamJoin.getTeamName());
 		});
 	}
 }

@@ -1,3 +1,5 @@
+// { autofold
+
 package com.tu.nativesqlsample;
 
 import java.util.List;
@@ -36,6 +38,7 @@ public class NativeQueryScalars {
 	@SuppressWarnings("unchecked")
 	public static void addScalar(Session session) {
 		logger.info(dash);
+		// } 
 		List<Object[]> domain = session.createNativeQuery("SELECT * FROM domain")
 				.addScalar("domain_id", IntegerType.INSTANCE).addScalar("domainName", StringType.INSTANCE).list();
 

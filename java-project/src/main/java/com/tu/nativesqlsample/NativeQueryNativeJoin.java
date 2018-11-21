@@ -1,3 +1,5 @@
+// { autofold
+  
 
 package com.tu.nativesqlsample;
 
@@ -34,6 +36,8 @@ public class NativeQueryNativeJoin {
 	@SuppressWarnings("unchecked")
 	public static void nativeJoin(Session session) {
 		// 2.4.1 Native query with JOIN
+		
+		// }
 		logger.info(dash);
 		List<Object[]> user = session.createNativeQuery(""
 				+ "select u.name, t.team_id from user u left outer join team t on u.team_id=t.team_id  where u.user_id=?")
@@ -43,7 +47,7 @@ public class NativeQueryNativeJoin {
 			String name = (String) objects[0];
 			int teamId = (int) objects[1];
 			if (logger.isLoggable(Level.INFO)) {
-				logger.info(String.format("User[ %s, %d ]", name, teamId));
+				System.out.println(String.format("Info : User[ %s, %d ]", name, teamId));
 			}
 		});
 	}

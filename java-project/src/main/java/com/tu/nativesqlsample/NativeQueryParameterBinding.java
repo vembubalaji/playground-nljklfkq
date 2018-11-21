@@ -1,3 +1,5 @@
+// { autofold
+
 package com.tu.nativesqlsample;
 
 import java.util.List;
@@ -34,6 +36,8 @@ public class NativeQueryParameterBinding {
 
 	@SuppressWarnings("unchecked")
 	public static void parameterBinding(Session session) {
+		
+		// }
 		List<Object[]> users = session.createNativeQuery(
 				"SELECT user_Id,name,username,isadmin,region_id,team_id,domain_id FROM user u where u.user_id=?")
 				.setParameter(1, 1).list();
@@ -42,7 +46,7 @@ public class NativeQueryParameterBinding {
 			Integer id = (Integer) objects[0];
 			String name = (String) objects[1];
 			if (logger.isLoggable(Level.INFO)) {
-				logger.info(String.format("User[ %d, %s ]", id, name));
+				logger.info(String.format("Info: User[ %d, %s ]", id, name));
 			}
 		});
 	}
