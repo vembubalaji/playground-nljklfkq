@@ -15,20 +15,6 @@ plan:
       statement: markdowns/another-page.md
     - title: Adding joins with entity mapping 
       statement: markdowns/another-page.md
-  - title: Iterating through the result set and constructing the Beans
-    statement: markdowns/another-page.md
-    plan:
-    - title: Querying with Entity mapping
-    statement: markdowns/another-page.md
-    - title: Basic Result set mapping using @SqlResultSetMapping
-    statement: markdowns/another-page.md
-    - title: Mapping Non-managed entities via result transformer
-    statement: markdowns/another-page.md
-  - title: Using @NamedNativeQuery
-    statement: markdowns/another-page.md
-
-
-
 
 # Settings for your programming projects and the associated Docker images
 projects:
