@@ -20,8 +20,6 @@ plan:
     statement: markdowns/transformer.md
   - title: Mapping Non-managed entities via result Custom Transformer
     statement: markdowns/customTransformer.md
-  - title: Using @NamedNativeQuery
-    statement: markdowns/NamedNativeQuery.md
 
 
 # Settings for your programming projects and the associated Docker images
