@@ -14,12 +14,12 @@ plan:
     statement: markdowns/nativeJoins.md
   - title: Adding joins with entity mapping 
     statement: markdowns/nativeJoinsWithEntity.md
-  - title: Querying with Entity mapping
-    statement: markdowns/entityMapping.md
   - title: Basic Result set mapping using @SqlResultSetMapping
     statement: markdowns/SqlResultSetMapping.md
   - title: Mapping Non-managed entities via result transformer
     statement: markdowns/transformer.md
+  - title: Mapping Non-managed entities via result Custom Transformer
+    statement: markdowns/customTransformer.md
   - title: Using @NamedNativeQuery
     statement: markdowns/NamedNativeQuery.md
 

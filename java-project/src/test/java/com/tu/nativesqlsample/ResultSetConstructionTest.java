@@ -15,8 +15,8 @@ public class ResultSetConstructionTest {
 	}
 
 	@Test
-	public void testEntityMapping() {
-		ResutlSetConstructionEntityMapping.entityMapping(session);
+	public void testCustomTransformer() {
+		ResutlSetConstructionCustomTransformer.transformer(session);
 	}
 
 	@Test
