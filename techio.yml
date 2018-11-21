@@ -13,9 +13,9 @@ plan:
   - title: Joins
     plan:
     - title: Native Joins
-    statement: markdowns/welcome.md
+      statement: markdowns/welcome.md
     - title: Adding joins with entity mapping 
-    statement: markdowns/welcome.md
+      statement: markdowns/welcome.md
 
 
 # Settings for your programming projects and the associated Docker images
