@@ -4,7 +4,7 @@ Hibernate provide option to execute native SQL queries through the use of SQLQue
 
 Considering the below entity relationship. We would be discussing the below points;
 
-![Alt text](ERDDiagram.png?raw=true "Title")
+
 
 **1**	&nbsp;Creating Native queries with createNativeQuery<br/>
 **2**	&nbsp;Use parameter binding in native SQL queries.<br/>
