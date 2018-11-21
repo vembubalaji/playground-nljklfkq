@@ -16,7 +16,7 @@ users1.stream().forEach(objects -> {
 
 In the above query, if there needs to be a where case, the same can be done via parameter binding
 
-@[A quick sample. Check out the JAVA class and SQL file]({"stubs": ["src/main/java/com/tu/nativesqlsample/NativeQueryParameterBinding.java","src/main/resourc/hibernate/schema.sql"], "command": "com.tu.nativesqlsample.NativeQueryParameterBindingTest#testParameterBinding"})
+@[A quick sample. Check out the JAVA class and SQL file]({"stubs": ["src/main/java/com/tu/nativesqlsample/NativeQueryParameterBinding.java","src/main/resources/schema.sql"], "command": "com.tu.nativesqlsample.NativeQueryParameterBindingTest#testParameterBinding"})
 
 * Here, we filter the query based on the user_id. In the query, the ‘?’ acts as a place-holder for setting the parameter and the .setParameter(1,1) sets the value to the place-holder. In the setParameter, the first parameter is the placeholder position and the send parameter is the value for the placeholder.
 * Hibernate uses the ResultSetMetadata to deduce the type of the columns returned by the query. 
