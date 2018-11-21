@@ -36,7 +36,7 @@ public class NativeQueryParameterBinding {
 
 	@SuppressWarnings("unchecked")
 	public static void parameterBinding(Session session) {
-		
+
 		// }
 		List<Object[]> users = session.createNativeQuery(
 				"SELECT user_Id,name,username,isadmin,region_id,team_id,domain_id FROM user u where u.user_id=?")
@@ -45,9 +45,7 @@ public class NativeQueryParameterBinding {
 		users.stream().forEach(objects -> {
 			Integer id = (Integer) objects[0];
 			String name = (String) objects[1];
-			if (logger.isLoggable(Level.INFO)) {
-				logger.info(String.format("Info: User[ %d, %s ]", id, name));
-			}
+			System.out.println(String.format("Info: User[ %d, %s ]", id, name));
 		});
 	}
 }

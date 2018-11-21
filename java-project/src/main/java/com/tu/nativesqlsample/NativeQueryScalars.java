@@ -45,9 +45,7 @@ public class NativeQueryScalars {
 		domain.stream().forEach(objects -> {
 			Integer id = (Integer) objects[0];
 			String name = (String) objects[1];
-			if (logger.isLoggable(Level.INFO)) {
-				logger.info(String.format("Domain[ %d, %s ]", id, name));
-			}
+			System.out.println(String.format("Info: Domain[ %d, %s ]", id, name));
 
 		});
 	}
