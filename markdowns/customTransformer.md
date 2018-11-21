@@ -2,7 +2,7 @@
 
 •	In case the columns returned from the result set names does not match the names on the mapped JavaBean attributes, and then we opt for the explicit transformation. 
 
-@[A quick sample. Check out the JAVA class and SQL file]({"stubs": ["src/main/java/com/tu/nativesqlsample/NativeQueryParameterBinding.java","src/main/resourc/hibernate/schema.sql","src/main/java/com/tu/hibernate/CustomResultTransformer.java"], "command": "com.tu.nativesqlsample.NativeQueryParameterBindingTest#testCustomTransformer"})
+@[A quick sample. Check out the JAVA class and SQL file]({"stubs": ["src/main/java/com/tu/nativesqlsample/NativeQueryParameterBinding.java","src/main/resources/schema.sql","src/main/java/com/tu/hibernate/CustomResultTransformer.java"], "command": "com.tu.nativesqlsample.NativeQueryParameterBindingTest#testCustomTransformer"})
 
 
 •	Here, we would implement ResultTransformer interface and override the transformTuple and transformList methods. 
