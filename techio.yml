@@ -10,11 +10,9 @@ plan:
     statement: markdowns/welcome.md
   - title: Adding scalars 
     statement: markdowns/welcome.md
-  - title: Joins
-    plan:
-    - title: Native Joins
-      statement: markdowns/welcome.md
-    - title: Adding joins with entity mapping 
+  - title: Native Joins
+    statement: markdowns/welcome.md
+  - title: Adding joins with entity mapping 
       statement: markdowns/welcome.md
 
 
