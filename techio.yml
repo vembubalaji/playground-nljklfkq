@@ -5,16 +5,30 @@ plan:
   - title: Creating Native queries with createNativeQuery
     statement: markdowns/welcome.md # Set the file path to the page content
   - title: Use parameter binding in native SQL queries
-    statement: markdowns/another-page.md
+    statement: markdowns/welcome.md
   - title: Adding scalars 
-    statement: markdowns/another-page.md
+    statement: markdowns/welcome.md
   - title: Joins 
-    statement: markdowns/another-page.md
+    statement: markdowns/welcome.md
     plan:
     - title: Native Joins 
-      statement: markdowns/another-page.md
+      statement: markdowns/welcome.md
     - title: Adding joins with entity mapping 
-      statement: markdowns/another-page.md
+      statement: markdowns/welcome.md
+  - title: Iterating through the result set and constructing the Beans
+    statement: markdowns/welcome.md
+    plan:
+    - title: Querying with Entity mapping
+    statement: markdowns/welcome.md
+    - title: Basic Result set mapping using @SqlResultSetMapping
+    statement: markdowns/welcome.md
+    - title: Mapping Non-managed entities via result transformer
+    statement: markdowns/welcome.md
+  - title: Using @NamedNativeQuery
+    statement: markdowns/welcome.md
+
+
+
 
 # Settings for your programming projects and the associated Docker images
 projects:
