@@ -1,6 +1,6 @@
 # Adding scalars
 
-*	To avoid the overhead of using ResultSetMetadata, or simply to be more explicit in what is returned, we use scalars while creating Native Queries
+*	To avoid the overhead of using *ResultSetMetadata*, or simply to be more explicit in what is returned, we use scalars while creating Native Queries
 
 @[A quick sample. Check out the JAVA class and SQL file]({"stubs": ["src/main/java/com/tu/nativesqlsample/NativeQueryScalars.java","src/main/resources/schema.sql"], "command": "com.tu.nativesqlsample.NativeQueryNativeScalarsTest#testAddScalar"})
 
